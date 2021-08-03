@@ -1,1 +1,2 @@
-# zafersaba-Multilayer-Perceptron-for-Multiclass-Discrimination
+# Multilayer-Perceptron-for-Multiclass-Discrimination 
+With a multivariate classification data set, which contains 1000 clothing images of size 28 pixels × 28 pixels, a multilayer perceptron was trained to predict the clothing type in the image. The images are from five distinct classes: T-shirt, trouser, dress, sneaker, and bag. The sigmoid function was used for hidden layer and the softmax function was used in the output layer.
