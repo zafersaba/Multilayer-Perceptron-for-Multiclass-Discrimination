@@ -2,7 +2,7 @@
 X <-as.matrix(read.csv("hw03_images.csv", header=FALSE))
 Y_truth <- as.matrix(read.csv("hw03_labels.csv", header=FALSE))
 
-#implement safelog. It is used because normal log() function may have show infinity values.
+#implement safelog. It is used because normal log() function may have infinity values.
 safelog <- function(x) {
   return (log(x + 1e-100))
 }
